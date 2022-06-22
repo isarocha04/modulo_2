@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 4 / Semana 7</title>
+</head>
+
+<body>
+  <h1>Exercício 4:</h1>
+  <p>Calcular o preço do vôo:</p>
+  <label for="persons">Número de Pessoas</label>
+  <input type="number" step="1" min="0" value="0" id="persons" name="persons">
+  <label for="time">Período</label>
+  <select id="time" name="time">
+    <option value="day">Diurno</option>
+    <option value="night">Noturno</option>
+  </select>
+  <button type="button" id="calculate">Calcular</button>
+  <div id="result">
+    <p>Total da compra: R$ <span id="cost"></span></p>
+  </div>
+  <script src="ex4.js"></script>
+</body>
+
+</html>

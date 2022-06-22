@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício1</title>
+    <script src="exercise1.js"></script>
+</head>
+<body>
+    <h1>Operações com números</h1>
+    <form id="form1">
+        <label for="op1"> Primeiro número:</label>
+        <input id='op1' type="number" name="op1" step="0.1" min="0.1" value="">
+        <br>
+        <label for="operador">Operação:</label>
+        <select name="operador" id="operador">
+            <option value="">-- selecione --</option>
+            <option value="0">+</option>
+            <option value="1">-</option>
+            <option value="2">*</option>
+            <option value="3">/</option>
+            <option value="4">//</option>
+            <option value="5">%</option>
+        </select>
+        <br>
+        <label for="op2"> Segundo número:</label>
+        <input id='op2' type="number" name="op2" step="0.1" min="0.1" value="">
+        <br>
+        <input type="button" name="botao" value="Aperte" id="botao" onclick="calculo();">
+        <br>   
+    </form>
+        <div id="saida"></div>
+</body>
+</html>
